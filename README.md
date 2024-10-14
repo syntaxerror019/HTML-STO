@@ -30,18 +30,20 @@ Include the script in your HTML:
 #### Regular Version
 
 ```html
-<script src="path/to/securityLockdown.js"></script>
+<script src="https://raw.githubusercontent.com/syntaxerror019/HTML-STO/refs/heads/main/lockdown.js"></script>
 ```
 
 #### Obfuscated Version
 
 ```html
-<script src="path/to/securityLockdown.obf.js"></script>
+<script src="https://raw.githubusercontent.com/syntaxerror019/HTML-STO/refs/heads/main/ld.min.js"></script>
 ```
 
 ### Step 2: Initialize the Security Lockdown
 
 Add the following JavaScript code to initialize the security lockdown feature:
+
+#### Regular Version
 
 ```javascript
 <script>
@@ -56,6 +58,23 @@ Add the following JavaScript code to initialize the security lockdown feature:
   });
 </script>
 ```
+
+#### Obfuscated Version
+
+```javascript
+<script>
+  window.ZX983({
+      B1: true, // Disable right-click
+      T8: true, // Disable F12
+      R7: true, // Disable Ctrl + Shift + I
+      G4: true, // Disable Ctrl + Shift + C
+      Y5: true, // Disable Ctrl + Shift + J
+      K9: true, // Disable Ctrl + U
+      N0: true  // Log attempts to the console
+  });
+</script>
+```
+(Remove comments for full obfuscation. This is simply a documentation reference point)
 
 ## Customization
 
