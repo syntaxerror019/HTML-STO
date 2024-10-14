@@ -30,13 +30,13 @@ Include the script in your HTML:
 #### Regular Version
 
 ```html
-<script src="https://raw.githubusercontent.com/syntaxerror019/HTML-STO/refs/heads/main/lockdown.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/syntaxerror019/HTML-STO/lockdown.js"></script>
 ```
 
 #### Obfuscated Version
 
 ```html
-<script src="https://raw.githubusercontent.com/syntaxerror019/HTML-STO/refs/heads/main/ld.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/syntaxerror019/HTML-STO/ld.min.js"></script>
 ```
 
 ### Step 2: Initialize the Security Lockdown
